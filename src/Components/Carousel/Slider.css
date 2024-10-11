@@ -51,9 +51,9 @@ cursor: pointer;
 }
 
 .lineBigColor{
-    border: 1px solid #5ea51d;
-    width: 2rem;
-    transition: all 0.3s ease;
+    border: 1px solid #5ea51d !important;
+    width: 2rem !important;
+    transition: all 0.3s ease !important;
     
 }
 

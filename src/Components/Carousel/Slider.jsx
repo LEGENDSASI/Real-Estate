@@ -128,7 +128,7 @@ const Slideshow = () => {
               </div>
               <div className='lines'>
               <hr onClick={() => goToSlide(0)} className='line1' id='line1'/>
-              <hr onClick={() => goToSlide(1)} className='line2' id='line2'/>
+              <hr onClick={() => goToSlide(1)} className='line2 lineBigColor' id='line2'/>
               <hr onClick={() => goToSlide(2)} className='line3' id='line3'/>
               </div>
               </div>

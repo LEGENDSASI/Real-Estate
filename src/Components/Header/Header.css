@@ -179,6 +179,9 @@ font-size: 14px;
 .MenuBtn{
     display: none;
 }
+.background_color_change{
+    background-color: #f7f7f7;
+}
 .upper{
     text-transform: uppercase;
 }

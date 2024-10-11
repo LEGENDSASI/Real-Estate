@@ -3,6 +3,7 @@ import './Header.css'
 import Slider from '../Carousel/Slider'
 // import SliderBootstrap from '../Carousel/Corousel'
 import CategoryPlace from '../Categories/CategoryPlace'
+import OurProperties from '../OurProperties/OurProperties'
 
 function Header() {
   return (
@@ -121,7 +122,9 @@ function Header() {
     </div>
     </div>
     <CategoryPlace/>
-    
+    <div className="background_color_change">
+    <OurProperties/>
+    </div>
     </>
   )
 }

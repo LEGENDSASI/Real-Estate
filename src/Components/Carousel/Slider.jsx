@@ -6,24 +6,7 @@ import bg2 from '../../assets/images/bg_2.jpg.webp';
 import bg3 from '../../assets/images/bg_3.jpg.webp';
 import './Slider.css'
 
-const spancapStyle = {
-  fontSize: '65px',
-  fontWeight: '400',
-  color: 'white',
-  // width: '60%',
-  position: 'relative', // Position text absolutely
-  zIndex: 1, // Ensure text is above the image
-  textAlign:'center',
-};
-const spandescStyle = {
-  fontSize: '16px',
-  fontWeight: '400',
-  color: 'white',
-  // width: '60%',
-  position: 'relative', // Position text absolutely
-  zIndex: 1, // Ensure text is above the image
-  textAlign:'center',
-};
+
 
 const spanbtnStyle = {
   color: 'white',
@@ -120,8 +103,8 @@ const Slideshow = () => {
               />
               <div className='flexContent'>
               <div className='flexTextStyle'>
-              <span style={spancapStyle}>{slideImage.caption}</span>
-              <span style={spandescStyle}>{slideImage.desc}</span>
+              <span className='spancapStyle'>{slideImage.caption}</span>
+              <span className='spandescStyle'>{slideImage.desc}</span>
               <div style={{width:'100%',display:'flex',justifyContent:'center'}}>
               <button style={spanbtnStyle}>LEARN MORE&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
               </div>

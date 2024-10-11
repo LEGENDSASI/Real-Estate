@@ -41,6 +41,26 @@ cursor: pointer;
     gap: 2rem;
     width: 40%;
   }
+  .spancapStyle {
+    font-size: 65px;
+    font-weight: 400;
+    color: white;
+    /* width: 60%; */
+    position: relative; /* Position text absolutely */
+    z-index: 1; /* Ensure text is above the image */
+    text-align: center;
+  }
+  
+  .spandescStyle {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    /* width: 60%; */
+    position: relative; /* Position text absolutely */
+    z-index: 1; /* Ensure text is above the image */
+    text-align: center;
+  }
+  
   
 .each-slide .flexContent{
     display: flex;
@@ -68,6 +88,12 @@ cursor: pointer;
     .flexTextStyle{
            width: 80%;
            background-color: black;
+    }
+    .spancapStyle{
+        font-size: 45px;
+    }
+    .spandescStyle{
+        font-size: 12px;
     }
     .each-slide .lines {
         left:5%;

@@ -186,9 +186,26 @@ gap:5px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 6rem;
+}
+.our_properties .modern_house_video .modern_house_text .playbtn_div{
+    width: 80px;
+    height: 80px;
+    background-color: #5ea51d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.our_properties .modern_house_video .modern_house_text .playbtn_div .playbtn{
+    color: white;
+    font-size: 50px;
+
 }
 .our_properties .modern_house_video .modern_house_text{
-    width: 40%;
+    width: 50%;
 }
 .our_properties .modern_house_video .modern_house_text > h1{
     color: white;
@@ -211,5 +228,10 @@ gap:5px;
     }
     .our_properties .property_card {
         width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .our_properties .modern_house_video .modern_house_text{
+        width: 80%;
     }
 }

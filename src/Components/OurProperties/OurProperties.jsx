@@ -8,6 +8,7 @@ import person from '../../assets/images/person_1.jpg'
 import { IoBedOutline } from "react-icons/io5";
 import { PiBathtub } from "react-icons/pi";
 import { SiKaufland } from "react-icons/si";
+import { IoIosPlay } from "react-icons/io";
 
 
 
@@ -230,6 +231,11 @@ function OurProperties() {
         <div className="modern_house_text">
         <h1>Modern House Video</h1>
           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <div style={{display:'flex',justifyContent:'center'}}>
+          <div className="playbtn_div">
+          <IoIosPlay className='playbtn'/>
+          </div>
+          </div>
         </div>
       </div>
   

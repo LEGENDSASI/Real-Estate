@@ -4,6 +4,7 @@ import Slider from '../Carousel/Slider'
 // import SliderBootstrap from '../Carousel/Corousel'
 import CategoryPlace from '../Categories/CategoryPlace'
 import OurProperties from '../OurProperties/OurProperties'
+import AboutUs from '../AboutUs/AboutUs'
 
 function Header() {
   return (
@@ -124,6 +125,7 @@ function Header() {
     <CategoryPlace/>
     <div className="background_color_change">
     <OurProperties/>
+    <AboutUs/>
     </div>
     </>
   )

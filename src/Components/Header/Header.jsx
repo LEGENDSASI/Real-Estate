@@ -5,6 +5,7 @@ import Slider from '../Carousel/Slider'
 import CategoryPlace from '../Categories/CategoryPlace'
 import OurProperties from '../OurProperties/OurProperties'
 import AboutUs from '../AboutUs/AboutUs'
+import Agents from '../Agents/Agents'
 
 function Header() {
   return (
@@ -126,6 +127,7 @@ function Header() {
     <div className="background_color_change">
     <OurProperties/>
     <AboutUs/>
+    <Agents/>
     </div>
     </>
   )

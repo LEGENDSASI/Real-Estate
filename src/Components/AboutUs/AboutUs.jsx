@@ -18,6 +18,7 @@ function AboutUs() {
             <p className='about_us_paragraph'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <div className="right_content_flex">
             <div className="number_of_property">
+
               <div className="year_of_exp">
                 <h1 className='number_of'>50</h1>
                 <p className='upper number_text'>Years of Experienced</p>
@@ -49,6 +50,20 @@ function AboutUs() {
         </div>
         </div>
                 
+      </div>
+      <div className="find_best_for_leaving">
+        <div className='overlay_color'></div>
+        <div className='find_best_for_leaving_align'>
+        <div className="find_best_for_leaving_content">
+          <div className="find_best_for_leaving_text">
+            <h1 style={{fontWeight:'600',lineHeight:'1.5'}}>Find Best Place For Leaving</h1>
+            <p>Find Best Place For Leaving</p>
+          </div>
+          <div className="btn_div">
+          <button className='upper'>Get in Touch</button>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
     </>

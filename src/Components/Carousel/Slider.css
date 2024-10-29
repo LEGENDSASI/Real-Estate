@@ -1,0 +1,101 @@
+.slide-container  .flexTextStyle  .fa-arrow-right{
+    font-size: 8px;
+}
+.each-slide .lines{
+display: flex;
+flex-direction: column;
+justify-self: flex-end;
+align-items: end;
+gap: 1rem;
+position: relative;
+left: 25%;
+
+}
+.each-slide .line1{
+position: relative;
+width: 1.5rem;
+z-index: 1;
+border: 1px solid white;
+cursor: pointer;
+}
+.each-slide .line2{
+    position: relative;
+    width: 1.5rem;
+    z-index: 1;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.each-slide .line3{
+    position: relative;
+    width: 1.5rem;
+    z-index: 1;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.flexTextStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 40%;
+  }
+  .spancapStyle {
+    font-size: 65px;
+    font-weight: 400;
+    color: white;
+    /* width: 60%; */
+    position: relative; /* Position text absolutely */
+    z-index: 1; /* Ensure text is above the image */
+    text-align: center;
+  }
+  
+  .spandescStyle {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    /* width: 60%; */
+    position: relative; /* Position text absolutely */
+    z-index: 1; /* Ensure text is above the image */
+    text-align: center;
+  }
+  
+  
+.each-slide .flexContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.lineBigColor{
+    border: 1px solid #5ea51d !important;
+    width: 2rem !important;
+    transition: all 0.3s ease !important;
+    
+}
+
+.react-slideshow-container .default-nav:last-of-type{
+    display: none;
+}
+.react-slideshow-container .default-nav:first-of-type{
+    display: none;
+}
+
+@media only screen and (max-width: 1250px) {
+    .flexTextStyle{
+           width: 80%;
+           background-color: black;
+    }
+    .spancapStyle{
+        font-size: 45px;
+    }
+    .spandescStyle{
+        font-size: 12px;
+    }
+    .each-slide .lines {
+        left:5%;
+    }
+}

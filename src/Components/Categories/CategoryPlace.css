@@ -1,0 +1,130 @@
+.category_place .category_first_text{
+    font-weight: 700;
+    font-size: 13px;
+    color: #5ea51d;
+    width: 50%;
+}
+.category_place .category_second_text{
+    font-weight: 900;
+    font-size: 50px;
+    width: 50%;
+    color:  rgba(0, 0, 0, 0.8);
+}
+.category_place .category_place_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    gap:1rem;
+    
+}
+.category_place .all_place_boxes{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+.category_place .category_places{
+ margin-top: 5rem;
+
+
+}
+
+.category_place .place_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #f3f5f1;
+    width: 16.6%;
+    gap:20px;
+}
+.category_place .place_box > i{
+    font-size: 60px;
+    color: #000000;
+}
+.category_place .place_box > .place_text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.category_place .place_box:hover {
+    background-color: #5ea51d;
+}
+
+/* Change inner <i> and .place_text elements when .place_box is hovered */
+.category_place .place_box:hover > i {
+    color: white;
+}
+
+.category_place .place_box:hover > .place_text {
+    color: white;
+}
+.category_place .property_place_text_box{
+    padding: 1rem 5rem;
+    /* width: 20%; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.category_place .property_place_text_column{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.category_place .property_place_alltext{
+    display: flex;
+    /* justify-content: center; */
+    gap:20px;
+    /* width: 100%; */
+}
+.category_place .properties_places{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.category_place .property_place_btn{
+    /* padding:0.5rem; */
+    background-color: #f3f5f1;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5ea51d;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+.category_place .property_place_btn:hover{
+    background-color: #5ea51d;
+    color: white;
+}
+.category_place .property_place_text{
+    font-size: 16px;
+    font-weight: 900;
+}
+@media only screen and (max-width: 1000px) {
+    .category_place .all_place_boxes{
+        flex-direction: column;
+    }
+    .category_place .place_box,.category_place .category_first_text,.category_place .category_second_text{
+        width: 100%; 
+  }
+  .category_place .property_place_alltext {
+    flex-direction: column;
+    width: 100%;
+    gap:3rem; 
+
+  }
+  .category_place .property_place_text_column{
+    width: 100%;
+   
+      
+}
+}

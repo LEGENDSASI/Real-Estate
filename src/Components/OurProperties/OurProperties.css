@@ -1,0 +1,237 @@
+.our_properties{
+    padding-top: 8rem;
+    margin-top: 8rem;
+}
+
+.our_properties .our_properties_first_text{
+color: #5ea51d;
+font-weight: 600;
+font-size: 13px;
+}
+.our_properties .our_properties_second_text{
+    font-weight: 700;
+    font-size: 30px;
+    color:  rgba(0, 0, 0, 0.8);
+}
+.our_properties .our_properties_all_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.our_properties .property_cards{
+    width: 100%;
+}
+.our_properties .property_card .property_image p{
+    /* position: relative;
+    bottom: 50px;
+    left:20px; */
+    background-color: #5ea51d;
+    /* width: 90px; */
+    position: absolute;
+    bottom: 1rem;
+    left: 10px;
+    /* padding: 3px 7px 3px 3px; */
+    padding: 3px 7px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+}
+.our_properties .property_card .property_image{
+    position: relative;
+}
+.our_properties .property_card .property_image > img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.our_properties .property_card{
+    width: 20%;
+    /* background-color: aquamarine; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
+.our_properties .property_card_text .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.our_properties .property_card_text{
+    padding: 25px;
+}
+.our_properties .property_card_text .profile .profile_picture{
+    display: flex;
+    align-items: center ;
+}
+.our_properties .property_card_text .profile .profile_picture img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 7px;
+    
+}
+.our_properties .property_card_text .profile .profile_picture p,.our_properties .property_card_text .profile .postedOn p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.our_properties .property_card_text .property_name{
+ margin-top: 20px;
+}
+.our_properties .property_card_text .property_name p{
+    font-size: 20px;
+}
+
+.our_properties .property_card_text .location_rent .location .fa-location-dot{
+    color: #5ea51d;
+    font-size: 10px;
+}
+.our_properties .property_card_text .location_rent .location{
+display: flex;
+align-items: center;
+gap:5px;    
+}
+.our_properties .property_card_text .location_rent .location p{
+    font-size: 12px;
+    color: #999999;
+}
+.our_properties .property_card_text .location_rent .rent_sale{
+    background-color: #5ea51d;
+    color: white;
+    width: 35px;
+    padding: 0px 5px;
+    text-align: center;
+}
+.our_properties .property_card_text .location_rent #rent{
+    background-color: #fd5c64;
+    padding: 0px 4px;
+
+}
+.our_properties .property_card_text .location_rent{
+    display: flex;
+    gap:15px;
+    margin-top: 5px;
+}
+.our_properties .property_card_text .location_rent .rent_sale p{
+    font-size: 13px;
+}
+.our_properties .property_card_text .room_facility{
+    color: #999999;
+}
+.our_properties .property_card_text .room_facility .property_bed .bed,
+.our_properties .property_card_text .room_facility .property_bath .bath{
+    font-size: 18px;
+}
+.our_properties .property_card_text .room_facility .property_bed p,
+.our_properties .property_card_text .room_facility .property_bath p,
+.our_properties .property_card_text .room_facility .property_sqft p{
+    font-size: 15px;
+}
+.our_properties .property_card_text .room_facility .property_bed,
+.our_properties .property_card_text .room_facility .property_bath,
+.our_properties .property_card_text .room_facility .property_sqft{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.our_properties .property_card_text .room_facility{
+    display: flex;
+    gap:15px;
+    margin-top: 20px;
+}
+.our_properties .property_cards{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin: 5rem 0rem 5rem 0rem;
+}
+.our_properties .property_card:hover .property_image > img {
+    filter: brightness(100%);
+    cursor: pointer;
+}
+.our_properties .property_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
+}
+/* .our_properties .property_card .property_image .strike::after {
+ content: '';
+ background: rgba(255, 255, 255, 0.2);
+ width: 100%;
+ height: 1px;
+ position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+} */
+.our_properties .property_card .property_image  .strike{
+    /* padding-right: 20px; */
+    text-decoration: line-through;
+
+
+}
+
+.our_properties .modern_house_video{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../../assets/images/bg_4.jpg.webp');    
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 6rem;
+}
+.our_properties .modern_house_video .modern_house_text .playbtn_div{
+    width: 80px;
+    height: 80px;
+    background-color: #5ea51d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.our_properties .modern_house_video .modern_house_text .playbtn_div .playbtn{
+    color: white;
+    font-size: 50px;
+
+}
+.our_properties .modern_house_video .modern_house_text{
+    width: 50%;
+}
+.our_properties .modern_house_video .modern_house_text > h1{
+    color: white;
+    font-size: 40px;
+}
+.our_properties .modern_house_video .modern_house_text > p{
+    color: #999999;
+    margin: 1rem 0rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .our_properties .property_card_text .room_facility{
+       flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .our_properties .property_cards {
+        flex-direction: column;
+    }
+    .our_properties .property_card {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .our_properties .modern_house_video .modern_house_text{
+        width: 80%;
+    }
+}

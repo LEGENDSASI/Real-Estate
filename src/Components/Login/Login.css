@@ -281,6 +281,10 @@
   right: 50%;
 }
 
+.Login #Register_Form_Tag, .Login #Login_Form_Tag{
+  width: 100%;
+}
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1000px) {
@@ -365,5 +369,9 @@
   .Login  .text h2 {
       margin: .5rem;
       font-size: 2rem;
+  }
+  .notify_login .f-notification {
+    top: 25%;
+    width: 90%;
   }
 }

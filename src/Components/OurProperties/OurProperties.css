@@ -152,6 +152,7 @@ gap:5px;
 .our_properties .property_card:hover .property_image > img {
     filter: brightness(100%);
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 .our_properties .property_card:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

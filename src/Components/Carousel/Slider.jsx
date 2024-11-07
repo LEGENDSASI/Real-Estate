@@ -101,7 +101,7 @@ const Slideshow = () => {
                 }
               }
               />
-              <div className='flexContent'>
+              <div data-aos="fade-up" className='flexContent'>
               <div className='flexTextStyle'>
               <span className='spancapStyle'>{slideImage.caption}</span>
               <span className='spandescStyle'>{slideImage.desc}</span>

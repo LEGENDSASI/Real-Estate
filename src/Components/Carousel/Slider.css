@@ -87,7 +87,7 @@ cursor: pointer;
 @media only screen and (max-width: 1250px) {
     .flexTextStyle{
            width: 80%;
-           background-color: black;
+           /* background-color: black; */
     }
     .spancapStyle{
         font-size: 45px;

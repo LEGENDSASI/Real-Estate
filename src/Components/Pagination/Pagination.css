@@ -1,0 +1,29 @@
+.Pagination .Pagination_numbers p{
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.Pagination .Pagination_numbers p:hover{
+    color: #fff;
+    background: #5ea51d;
+}
+
+.Pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7em;
+}
+.Pagination .Pagination_numbers{
+    display: flex;
+    justify-content: center;
+}

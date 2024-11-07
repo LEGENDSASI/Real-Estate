@@ -84,16 +84,7 @@ transition: 0.5s ease;
     font-weight: 400;
     color: #999999;
 }
-.ourBlog .blog_images{
-    display: flex;
-    width: 100%;
-   
-}
-.ourBlog .blog_images img{
-height: 300px;
-width: 16.6666666667%;
-object-fit: cover;
-}
+
 
 @media only screen and (max-width: 1050px) {
     .ourBlog .blog_content {
@@ -109,13 +100,3 @@ object-fit: cover;
 
 }
 
-@media only screen and (max-width: 768px) {
-
-    .ourBlog .blog_images img{
-        width: 100%;
-    }
-    .ourBlog .blog_images{
-        flex-direction: column;
-    }    
-
-}

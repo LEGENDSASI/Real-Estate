@@ -1,0 +1,92 @@
+.find_best_for_leaving{
+    background-image: url('../../assets/images/bg_4.jpg.webp');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 6rem;
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+
+}
+.find_best_for_leaving .find_best_for_leaving_content{
+    width: 83.33333%;
+} 
+.find_best_for_leaving .find_best_for_leaving_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.find_best_for_leaving .btn_div{
+    width: 33.33333%;
+    padding-left: 1.5rem;
+}
+.find_best_for_leaving button{
+    background: #000000 !important;
+    border: 1px solid #000000 !important;
+    color: #fff !important;
+    cursor: pointer;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 3rem;
+    padding: 0px 20px;
+    /* width: 33.33333%; */
+}
+.find_best_for_leaving .overlay_color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .9;
+    background: #5ea51d;
+    z-index: -1;
+    width: 100%;
+
+}
+
+.find_best_for_leaving_text{
+    width: 66.66667%;
+}
+
+.find_best_for_leaving .find_best_for_leaving_align{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .find_best_for_leaving_content{
+        width: 83.33333%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .find_best_for_leaving .find_best_for_leaving_content{
+        flex-direction: column;
+    }
+    .find_best_for_leaving .find_best_for_leaving_align{
+        justify-content: flex-start;
+    }
+    .find_best_for_leaving_content{
+        width: 100%;
+    }
+    .find_best_for_leaving .btn_div{
+        width: 100%;    
+    }
+    .find_best_for_leaving_text{
+        width: 100%;
+    }
+    .find_best_for_leaving .find_best_for_leaving_content .find_best_for_leaving_text{
+        padding-left: 1.5rem;
+    }
+
+}

@@ -5,6 +5,9 @@ function Footer() {
   return (
    <>
    <div className="footer">
+   <div className='footer_parent_upper'>
+    <div className="max_width_container_size">
+    <div className="max_width_container">
     <div className="footer_full_content">
 
         <div className="footer_content1">
@@ -116,12 +119,21 @@ function Footer() {
             </div>
             </div>
 
-    
     </div>
+    </div>
+    </div>
+    </div>
+    <div className='footer_parent_lower'>
+    <div className="max_width_container_size">
+    <div className="max_width_container">
     <div className="footer_down">
         <p>Copyright © 2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span>Colorlib</span></p>
     </div>
    </div>
+   </div>
+   </div>
+   </div>
+
    </>
   )
 }

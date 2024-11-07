@@ -22,24 +22,7 @@ font-size: 13px;
 .our_properties .property_cards{
     width: 100%;
 }
-.our_properties .property_card .property_image p{
-    /* position: relative;
-    bottom: 50px;
-    left:20px; */
-    background-color: #5ea51d;
-    /* width: 90px; */
-    position: absolute;
-    bottom: 1rem;
-    left: 10px;
-    /* padding: 3px 7px 3px 3px; */
-    padding: 3px 7px;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    border-radius: 4px;
-    text-align: center;
-    display: flex;
-}
+
 .our_properties .property_card .property_image{
     position: relative;
 }
@@ -145,8 +128,10 @@ gap:5px;
 }
 .our_properties .property_cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap:20px;
+    column-gap:20px;
+    row-gap:60px;
     margin: 5rem 0rem 5rem 0rem;
 }
 .our_properties .property_card:hover .property_image > img {
@@ -168,11 +153,55 @@ gap:5px;
     left: 0;
     right: 0;
 } */
-.our_properties .property_card .property_image  .strike{
+.our_properties .property_card .property_image  .property_amount_strike{
     /* padding-right: 20px; */
+        /* position: relative;
+    bottom: 50px;
+    left:20px; */
+    background-color: #5ea51d;
+    /* width: 90px; */
+    /* padding: 3px 7px 3px 3px; */
+    padding: 3px 7px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    text-align: center;
     text-decoration: line-through;
 
+}
+.our_properties .property_card .property_image .property_amount{
+    /* position: relative;
+    bottom: 50px;
+    left:20px; */
+    background-color: #5ea51d;
+    /* width: 90px; */
+    /* padding: 3px 7px 3px 3px; */
+    padding: 3px 7px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
 
+.our_properties .property_card .property_image .property_align_content{
+    /* position: relative;
+    bottom: 50px;
+    left:20px; */
+    /* width: 90px; */
+    position: absolute;
+    bottom: 1rem;
+    left: 10px;
+    /* padding: 3px 7px 3px 3px; */
+    /* padding: 3px 7px; */
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    column-gap: 10px;
 }
 
 .our_properties .modern_house_video{

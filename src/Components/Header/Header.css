@@ -11,6 +11,7 @@
 .headerContent > .top_full_content{
     background-color: #06112a;
     color: white;
+
     
 }
 .headerContent > .top_full_content > .top_content > i{
@@ -36,6 +37,7 @@ display: flex;
 align-items: center;
 gap: 1rem;
 
+
 }
 .headerContent > .top_full_content > .top_content > .top_text{
     display: flex;
@@ -48,6 +50,8 @@ display: flex;
 justify-content: space-around;
 padding: 1.6rem !important;
 /* align-items: flex-end; */
+position: relative;
+z-index: 2;
 }
 
 .headerContent > .navbar_text > .logo h2{
@@ -75,7 +79,10 @@ padding: 1.6rem !important;
 }
 .headerContent > .navbar_text > .navbar_links li:hover{
     cursor: pointer;
-    color: white;
+        /* color: white; */
+}
+.navbar_link_active{
+    color: white !important;
 }
 .headerContent > .navbar_text{
     width: 100%;
@@ -104,6 +111,99 @@ padding: 1.6rem !important;
 .MenuBtn{
     display: none;
 }
+@keyframes phoneNav {
+    from {
+       margin-top: -400px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+}
+
+@keyframes phoneNavRemove {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: -400px;
+    }
+}
+
+.phone_nav {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #081637;
+    animation-name: phoneNav;
+    animation-duration: 0.5s; /* Reduced animation time */
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out; /* Smooth transition */
+    animation-fill-mode: forwards; /* Retain final state */
+    z-index: 1;
+}
+
+.phone_nav_remove {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #081637;
+    animation-name: phoneNavRemove;
+    animation-duration: 0.5s; /* Reduced animation time */
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in; /* Smooth transition */
+    animation-fill-mode: forwards; /* Retain final state */
+    z-index: 1;
+    
+}
+#phone_nav_id{
+    display: none;
+}
+
+#phone_nav_id .phone_navbar_links{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-bottom: 0.5rem !important;
+    margin: auto !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+}
+#phone_nav_id .phone_navbar_links li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1rem;
+    padding-top: 0.2rem;
+    color: #fff;
+    font-size: 13px;
+    /* padding-top: 1.2rem; */
+    padding-bottom: 1.2rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#phone_nav_id .phone_submit_pry_btn{
+    background-color: #5ea51d;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 @media only screen and (max-width: 1250px) {
     .headerContent > .navbar_text{
       display: flex;
@@ -118,6 +218,9 @@ padding: 1.6rem !important;
         display: block;
         letter-spacing: .1em;
         cursor: pointer;
+    }
+    .headerContent > .navbar_text > .submit_property > .submit_pry_btn {
+        display: none;
     }
     .headerContent > .top_full_content {
         display: flex;

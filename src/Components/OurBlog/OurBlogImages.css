@@ -1,0 +1,23 @@
+.blog_images{
+    display: flex;
+    width: 100%;
+   
+}
+.blog_images img{
+height: 300px;
+width: 16.6666666667%;
+object-fit: cover;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .blog_images img{
+        width: 100%;
+    }
+    .blog_images{
+        flex-direction: column;
+    }    
+
+}

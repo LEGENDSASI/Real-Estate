@@ -9,15 +9,17 @@ import Agent4 from '../../assets/images/team-4.webp'
 function Agents() {
   return (
     <>
+          <div className="max_width_container_size">
+          <div className="max_width_container">
     <div className="agents">
     <div className="agents_pictures">
       <div className="half_bg">
-      <div className="agents_text">
+      <div data-aos="fade-up" data-aos-duration="1000" className="agents_text">
         <p className='upper'>Meets Our Agents</p>
         <h2>Our Agents</h2>
         </div>
         <div className="agents_pic">
-          <div className="agent_image">
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="agent_image">
           <div className="agent_image_div">
             <img src={Agent1} alt="404" />
             </div>
@@ -38,7 +40,7 @@ function Agents() {
             </div>
           </div>
 
-          <div className="agent_image">
+          <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className="agent_image">
             <div className="agent_image_div">
             <img src={Agent2} alt="404" />
             </div>
@@ -59,7 +61,7 @@ function Agents() {
             </div>
           </div>
 
-          <div className="agent_image">
+          <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="agent_image">
           <div className="agent_image_div">
             <img src={Agent3} alt="404" />
             </div>
@@ -80,7 +82,7 @@ function Agents() {
             </div>
           </div>
 
-          <div className="agent_image">
+          <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" className="agent_image">
           <div className="agent_image_div">
             <img src={Agent4} alt="404" />
             </div>
@@ -105,6 +107,8 @@ function Agents() {
         </div>
         </div>
 
+    </div>
+    </div>
     </div>
     </div>
     </>

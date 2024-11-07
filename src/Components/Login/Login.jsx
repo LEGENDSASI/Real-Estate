@@ -48,6 +48,9 @@ const Login = () => {
       localStorage.setItem("accessToken",res.data);  
       navigate('/')    
     }).catch((err) => {
+      if(err.status === 400){
+        return showNotification(err.response.data, 'error');
+      }
       console.log('Failed Login:',err);
       
     })
@@ -86,6 +89,9 @@ const Login = () => {
       toggle()
       showNotification('User Created Successfully', 'success');
     }).catch((err)=>{
+      if(err.status === 400){
+        return showNotification(err.response.data, 'error');
+      }
       console.log('Failed Register:',err);
       
     })

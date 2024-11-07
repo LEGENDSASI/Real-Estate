@@ -1,0 +1,14 @@
+.AgentsPage .agents .agents_pictures .half_bg {
+    background: transparent;
+}
+.agents .agents_pictures .agents_text {
+    display: none;
+}
+
+.AgentsPage .agents .agents_pictures .agents_pic .agent_image {
+    padding-bottom: 0rem;
+}
+
+.AgentsPage .agents {
+    margin-bottom: 7em;
+}

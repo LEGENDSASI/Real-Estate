@@ -1,0 +1,17 @@
+.PropertiesPage .our_properties {
+    padding-top: 0rem;
+    margin-top: 0rem; 
+}
+
+.PropertiesPage .our_properties .our_properties_all_text {
+    display: none;
+}
+
+.PropertiesPage .our_properties .property_cards {
+    margin: 0rem;
+}
+
+.PropertiesPage .our_properties .property_cards {
+    padding: 0 0 7em 0;
+}
+
